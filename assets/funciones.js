@@ -32,8 +32,7 @@ $(document).ready(function () {
 
 Fancybox.bind('[data-fancybox="gallery"]', {
     // Your custom options
-    'width':300,
-    'height':200,
+
 });
 
 Fancybox.bind("[data-fancybox]", {
