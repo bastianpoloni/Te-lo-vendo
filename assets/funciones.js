@@ -20,12 +20,21 @@ function validarFormulario(evento) {
         alert('No has escrito nada en el comentario');
         return;
     }
-    
+
 }
 
 
 $(document).ready(function () {
     $('#estadisticas').DataTable({
-        
+
     });
+});
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+    // Your custom options
+
+});
+
+Fancybox.bind("[data-fancybox]", {
+    // Your custom options
 });
