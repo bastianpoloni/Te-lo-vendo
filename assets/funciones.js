@@ -26,7 +26,7 @@ function validarFormulario(evento) {
 
 $(document).ready(function () {
     $('#estadisticas').DataTable({
-
+       
     });
 });
 

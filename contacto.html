@@ -11,38 +11,52 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Contacto</title>
   </head>
   <body>
-    <header><h1 class="yellow">Contacto</h1></header>
-    <form>
-      <div class="m-3">
-        <label for="nombre" class="form-label">Nombre de usuario</label>
-        <input
-          type="text"
-          class="form-control"
-          id="nombre"
-          placeholder="Nombre y Apellido"
-        />
-      </div>
-      <div class="m-3">
-        <label for="correo" class="form-label">Correo electronico</label>
-        <input
-          type="email"
-          class="form-control"
-          id="correo"
-          placeholder="nombre@example.com"
-        />
-      </div>
-      <div class="m-3">
-        <label for="comentario" class="form-label">Comentario</label>
-        <textarea class="form-control" id="comentario" rows="3"></textarea>
-      </div>
-      <button class="m-3 btn btn-outline-light" id="enviar" type="submit">
-        Enviar
-      </button>
-
-    </form>
+    <header><h1>Contacto</h1></header>
+    <section class="container-fluid">
+      <form>
+        <div class="m-3">
+          <label for="nombre" class="form-label">Nombre de usuario</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Nombre y Apellido"
+          />
+        </div>
+        <div class="m-3">
+          <label for="correo" class="form-label">Correo electronico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="correo"
+            placeholder="nombre@example.com"
+          />
+        </div>
+        <div class="m-3">
+          <label for="comentario" class="form-label">Comentario</label>
+          <textarea class="form-control" id="comentario" rows="3"></textarea>
+        </div>
+        <button class="m-3 btn btn-outline-light" id="enviar" type="submit">
+          Enviar
+        </button>
+      </form>
+    </section>
+    
 
     <script src="assets/funciones.js"></script>
     <script
